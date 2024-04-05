@@ -28,7 +28,7 @@ def get_info():
                 "FastAPI",
             ],
             "backend": [
-                "Vue"
+                "lab1"
             ]
         },
     }
