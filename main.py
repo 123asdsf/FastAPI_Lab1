@@ -6,28 +6,28 @@ app = FastAPI()
 @app.get("/")
 async def get_name():
     return {
-        "first_name": "Зубенко",
-        "last_name": "Михаил",
-        "sur_name": "Петрович",
+        "first_name": "Фамилия",
+        "last_name": "Имя",
+        "sur_name": "Отчество",
     }
 
 
 @app.get("/users")
 def get_contact_info():
     return {
-        "phone": "88002000122",
+        "phone": "+7-XXX-XXX-XX-XX",
     }
 
 
 @app.get("/tools")
 def get_info():
     return {
-        "my_skills": {
+        "Labs": {
             "python": [
-                "Flask",
+                "3.12",
                 "FastAPI",
             ],
-            "javascript": [
+            "backend": [
                 "Vue"
             ]
         },
